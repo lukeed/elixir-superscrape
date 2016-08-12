@@ -12,7 +12,7 @@ defmodule Backfeed.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:wayback, :scrape]]
+    [applications: [:scrape]]
   end
 
   # Dependencies:
