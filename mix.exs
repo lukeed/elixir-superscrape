@@ -19,6 +19,7 @@ defmodule SuperScrape.Mixfile do
   # Dependencies:
   defp deps do
     [{:wayback, "~> 0.1.0"},
-     {:scrape, "~> 1.2"}]
+     {:scrape, "~> 1.2"},
+     {:ex_doc, "~> 0.13.0", only: :dev}]
   end
 end
