@@ -1,6 +1,6 @@
-defmodule BackfeedTest do
+defmodule SuperScrapeTest do
   use ExUnit.Case
-  doctest Backfeed
+  doctest SuperScrape
 
   test "the truth" do
     assert 1 + 1 == 2

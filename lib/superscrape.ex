@@ -1,4 +1,4 @@
-defmodule Backfeed do
+defmodule SuperScrape do
   import Scrape, except: [website: 1]
   import Wayback, only: [links: 1]
 

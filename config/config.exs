@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :backfeed, key: :value
+#     config :superscrape, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:backfeed, :key)
+#     Application.get_env(:superscrape, :key)
 #
 # Or configure a 3rd-party app:
 #
