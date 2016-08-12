@@ -2,7 +2,7 @@ defmodule Backfeed do
   import Scrape, except: [website: 1]
   import Wayback, only: [links: 1]
 
-  @sepc lookup(String.t) :: [String.t]
+  @spec lookup(String.t) :: [String.t]
   def lookup(url), do: Wayback.links(url)
 
   @spec process(String.t | List.t) :: [tuple()]
