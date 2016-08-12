@@ -1,4 +1,9 @@
 defmodule SuperScrape do
+  @moduledoc """
+  Read an Atom/RSS feed and concatenate it with deduplicated historical items from
+  past versions saved in the archive.org's [Wayback Machine](https://archive.org/web/).
+  """
+
   import Scrape, except: [website: 1]
   import Wayback, only: [links: 1]
 

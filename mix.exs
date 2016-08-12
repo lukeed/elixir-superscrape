@@ -5,6 +5,7 @@ defmodule SuperScrape.Mixfile do
     [app: :superscrape,
      version: "0.1.0",
      elixir: "~> 1.3",
+     description: "Read an Atom/RSS feed and concatenate it with deduplicated historical items from past versions saved in the Wayback Machine.",
      deps: deps]
   end
 
